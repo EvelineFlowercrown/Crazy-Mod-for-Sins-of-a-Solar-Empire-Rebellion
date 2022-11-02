@@ -1,0 +1,55 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_STARBASEHULLTECH"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_STARBASEHULLTECH"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_STARBASEHULLSHIELDSTECHLOYAL_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_STARBASEHULLSHIELDSTECHLOYAL_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 3 , 6 ]
+ResearchField "Defense"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_TWIN_FORTRESSES0"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 3.000000
+BaseCost
+	credits 1200.000000
+	metal 200.000000
+	crystal 300.000000
+PerLevelCostIncrease
+	credits 120.000000
+	metal 35.000000
+	crystal 45.000000
+Tier 3
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 3
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 4
+researchModifier
+	modifierType "StarBaseHullPointsMaxAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+researchModifier
+	modifierType "StarBaseArmorAdjustment"
+	baseValue 0.000000
+	perLevelValue 4.000000
+researchModifier
+	modifierType "StarBaseShieldPointsMaxAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+researchModifier
+	modifierType "StarBaseShieldPointsRegenAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

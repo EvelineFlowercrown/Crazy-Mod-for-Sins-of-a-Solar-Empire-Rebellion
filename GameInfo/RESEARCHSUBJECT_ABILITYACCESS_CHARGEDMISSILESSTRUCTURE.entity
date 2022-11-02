@@ -1,0 +1,39 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_ABILITY_CHARGEDMISSILES_ACTIVE"
+smallHudIcon "HUDICON_ABILITY_CHARGEDMISSILES_ACTIVE"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_CHARGEDMISSILESSTRUCTURE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_CHARGEDMISSILESSTRUCTURE_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 2 , 7 ]
+ResearchField "Defense"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_PHASEMISSILESWARMSTRUCTURE"
+		Level 4
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 50.000000
+PerLevelUpgradeTime 4.000000
+BaseCost
+	credits 2000.000000
+	metal 400.000000
+	crystal 350.000000
+PerLevelCostIncrease
+	credits 200.000000
+	metal 175.000000
+	crystal 125.000000
+Tier 2
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 4
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "CrazyResearchOverlay"
+dlcId 204880

@@ -1,0 +1,88 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 10
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 2
+periodicAction
+	actionCountType "Finite"
+	actionCount
+		Level:0 6.000000
+		Level:1 6.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	actionIntervalTime
+		Level:0 1.500000
+		Level:1 1.500000
+		Level:2 0.000000
+		Level:3 0.000000
+	buffInstantActionType "DoDamagePercOfCurrentHull"
+	instantActionTriggerType "AlwaysPerform"
+	hullDamagePerc
+		Level:0 0.060000
+		Level:1 0.060000
+		Level:2 0.000000
+		Level:3 0.000000
+	damageAffectType "AFFECTS_ONLY_HULL"
+	damageType "ENERGY"
+	isDamageShared TRUE
+periodicAction
+	actionCountType "Finite"
+	actionCount
+		Level:0 6.000000
+		Level:1 6.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	actionIntervalTime
+		Level:0 1.500000
+		Level:1 1.500000
+		Level:2 0.000000
+		Level:3 0.000000
+	buffInstantActionType "ApplyBuffToLastSpawnerWithTravelNoFilterNoRange"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "BuffDisintegratingStormRecourse"
+	travelSpeed 1200.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Center"
+	weaponEffectImpactOffsetType "Center"
+	canWeaponEffectHitHull FALSE
+	canWeaponEffectHitShields FALSE
+	weaponEffectsDef
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName ""
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_GENERICFIRE"
+		hitEffectName ""
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		projectileTravelEffectName "Ability_DisintegrationBounceBackTravel"
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 0.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"

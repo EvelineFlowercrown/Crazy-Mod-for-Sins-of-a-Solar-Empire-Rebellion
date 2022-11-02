@@ -1,0 +1,346 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "CapitalShip"
+ability:0 "AbilityDerelictIonBlast"
+ability:1 "AbilityDerelictFlakBurst"
+ability:2 "AbilityDerelictMicroPhaseJump"
+ability:3 "AbilityDerelictLastStand"
+ability:4 "AbilityDerelictExplosiveTorpedoes"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault FALSE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 63.000000
+basePopulationKilled 1.700000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 12.000000
+bombEffectCount 3
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
+	hitEffectName "Weapon_TechCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
+mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHBATTLESHIP"
+basePrice
+	credits 3000.000000
+	metal 400.000000
+	crystal 250.000000
+slotCount 50.000000
+BuildTime 75.000000
+MaxHullPoints
+	StartValue 6000.000000
+	ValueIncreasePerLevel 1200.000000
+MaxShieldPoints
+	StartValue 3000.000000
+	ValueIncreasePerLevel 600.000000
+HullPointRestoreRate
+	StartValue 2.500000
+	ValueIncreasePerLevel 0.500000
+ShieldPointRestoreRate
+	StartValue 2.000000
+	ValueIncreasePerLevel 0.400000
+ArmorPointsFromExperience
+	StartValue 15.000000
+	ValueIncreasePerLevel 3.000000
+maxMitigation
+	StartValue 0.600000
+	ValueIncreasePerLevel 0.010110
+MaxAntiMatter
+	StartValue 450.000000
+	ValueIncreasePerLevel 90.000000
+AntiMatterRestoreRate
+	StartValue 0.500000
+	ValueIncreasePerLevel 0.100000
+CultureProtectRate
+	StartValue 1.200000
+	ValueIncreasePerLevel 0.200000
+NameStringID "IDS_CAPITALSHIP_DEADBATTLESHIP_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_DEADBATTLESHIP_DESCRIPTION"
+picture "CAPITALSHIPPICTURE_TECHBATTLESHIP"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+roleType "Invalid"
+statCountType "CapitalShipBattleship"
+numRandomDebrisLarge 6
+numRandomDebrisSmall 12
+numSpecificDebris 1
+specificDebrisMeshName "DebrisTechLarge"
+armorType "CapitalShip"
+hudIcon "HUDICON_CAPITALSHIP_TECHBATTLESHIP"
+smallHudIcon "HUDICONSMALL_CAPITALSHIP_TECHBATTLESHIP"
+infoCardIcon "INFOCARDICON_CAPITALSHIP_TECHBATTLESHIP"
+minZoomDistanceMult 1.750000
+NumWeapons 4
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 500.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 8500.000000
+	PreBuffCooldownTime 14.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.250000
+	TravelSpeed 0.000000
+	Duration 8.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_TechCapitalBeamHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_TechCapitalBeamHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_TECHCAPITALBEAMHEAVY_TRAVEL"
+		beamGlowTextureName "TechCapitalBeam_Core"
+		beamCoreTextureName "TechCapitalBeam_Glow"
+		beamWidth 60.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 9.000000
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "AUTOCANNON"
+	DamagePerBank:FRONT 80.000000
+	DamagePerBank:BACK 80.000000
+	DamagePerBank:LEFT 80.000000
+	DamagePerBank:RIGHT 80.000000
+	Range 7000.000000
+	PreBuffCooldownTime 4.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 1.000000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 25
+		burstDelay 0.060000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_TechCapitalAutoCannonHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_TechCapitalAutoCannonHeavy_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_ONLY_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "GAUSS"
+	DamagePerBank:FRONT 1210.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 8000.000000
+	PreBuffCooldownTime 10.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.900000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 4.000000
+		fireDelay 0.000000
+		muzzleEffectName "CapitalAbility_GaussBlastLaunch"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_GENERICFIRE"
+		hitEffectName "CapitalAbility_GaussBlastHit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "CapitalAbility_GaussBlastTravel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIMODULE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 700.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 10000.000000
+	PreBuffCooldownTime 10.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.900000
+	TravelSpeed 1100.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Ability_AntiModuleTorpedoesMuzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_NEUTRONTORPEDO_MUZZLE"
+		hitEffectName "Ability_AntiModuleTorpedoesImpact"
+		hitHullEffectSounds
+			soundCount 6
+			sound "EXPLOSION_SUB0"
+			sound "EXPLOSION_SUB1"
+			sound "EXPLOSION_SUB2"
+			sound "EXPLOSION_SUB3"
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB5"
+		hitShieldsEffectSounds
+			soundCount 6
+			sound "EXPLOSION_SUB0"
+			sound "EXPLOSION_SUB1"
+			sound "EXPLOSION_SUB2"
+			sound "EXPLOSION_SUB3"
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB5"
+		projectileTravelEffectName "Ability_AntiModuleTorpedoesTravel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 2
+TargetCountPerBank:LEFT 3
+TargetCountPerBank:RIGHT 3
+canOnlyTargetStructures FALSE
+mass 10000.000000
+ShieldMeshName "Shield_TechBattleship"
+renderShield TRUE
+maxAccelerationLinear 200.000000
+maxAccelerationStrafe 40.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 2.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 450.000000
+maxRollRate 4.000000
+maxRollAngle 35.000000
+useCustomHyperspaceEffects TRUE
+effects
+	chargeUpEffectName "Hyperspace_Tech_Capital_Chargeup"
+	chargeUpEffectNameBetweenStars "Hyperspace_Tech_Capital_Chargeup_Interstellar"
+	chargeUpEffectNameDestabilized "Hyperspace_Tech_Capital_Chargeup_Unstable"
+	chargeUpEffectSoundID "HYPERSPACE_CHARGEUP"
+	travelEffectName "Hyperspace_Tech_Capital_Travel"
+	travelEffectNameBetweenStars "Hyperspace_Tech_Capital_Travel_Interstellar"
+	travelEffectNameDestabilized "Hyperspace_Tech_Capital_Travel_Unstable"
+	travelEffectSoundID "HYPERSPACE_TRAVEL"
+	exitEffectName "Hyperspace_Tech_Capital_Exit"
+	exitEffectSoundID "HYPERSPACE_EXIT"
+squadTypeEntityDef:0 "SquadDeadCombat"
+squadAntiMatterCost:0 50.000000
+squadTypeEntityDef:1 "SquadDeadBomber"
+squadAntiMatterCost:1 150.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 4
+SoundID "CAPITALSHIP_TECHBATTLESHIP_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHBATTLESHIP_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHBATTLESHIP_ONATTACKORDERISSUED_2"
+SoundID "CAPITALSHIP_TECHBATTLESHIP_ONATTACKORDERISSUED_3"
+NumSoundsFor:ONCREATION 1
+SoundID "CAPITALSHIP_TECHBATTLESHIP_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CAPITALSHIP_TECHBATTLESHIP_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHBATTLESHIP_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHBATTLESHIP_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CAPITALSHIP_TECHBATTLESHIP_ONSELECTED_0"
+SoundID "CAPITALSHIP_TECHBATTLESHIP_ONSELECTED_1"
+SoundID "CAPITALSHIP_TECHBATTLESHIP_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CAPITALSHIP_TECHBATTLESHIP_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "CapitalShip_DeadBattleship"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_TechBattleship"
+ExplosionName "CapitalShip0"
+CommandPoints
+	StartValue 2.000000
+	ValueIncreasePerLevel 0.000000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.300000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.300000
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+formationRank 0
+minShadow 0.000000
+maxShadow 1.000000
+dlcId 204880

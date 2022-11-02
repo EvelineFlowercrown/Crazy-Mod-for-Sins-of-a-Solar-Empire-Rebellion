@@ -1,0 +1,54 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "ApplyBuffToSelfWithFilter"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffDerelictPlatformModeFriendly"
+	targetFilter
+		numOwnerships 1
+		ownership "Player"
+		numObjects 1
+		object "CapitalShip"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "IsInFriendlyGravityWell"
+instantAction
+	buffInstantActionType "ApplyBuffToSelfWithFilter"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffDerelictPlatformModeNonFriendly"
+	targetFilter
+		numOwnerships 1
+		ownership "Player"
+		numObjects 1
+		object "CapitalShip"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "IsInNonFriendlyGravityWell"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "AngularThrust"
+	value
+		Level:0 40.000000
+		Level:1 60.000000
+		Level:2 80.000000
+		Level:3 100.000000
+numEntityBoolModifiers 1
+	entityBoolModifier "DisableLinearEngines"
+numFinishConditions 1
+finishCondition
+	finishConditionType "OwnerChanged"

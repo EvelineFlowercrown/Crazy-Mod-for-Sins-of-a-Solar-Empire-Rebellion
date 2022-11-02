@@ -1,0 +1,63 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "TeleportTowardsMoveTarget"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	teleportDistance 3000.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 5
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageTarget"
+	value
+		Level:0 -0.400000
+		Level:1 -0.800000
+		Level:2 -0.800000
+		Level:3 -0.800000
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 1.000000
+		Level:1 2.000000
+		Level:2 2.000000
+		Level:3 2.000000
+entityModifier
+	buffEntityModifierType "AngularThrust"
+	value
+		Level:0 3.000000
+		Level:1 6.000000
+		Level:2 6.000000
+		Level:3 6.000000
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 3.000000
+		Level:1 6.000000
+		Level:2 6.000000
+		Level:3 6.000000
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 3.000000
+		Level:1 6.000000
+		Level:2 6.000000
+		Level:3 6.000000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 5.000000

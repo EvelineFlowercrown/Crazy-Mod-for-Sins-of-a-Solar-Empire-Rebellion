@@ -1,0 +1,39 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_ABILITY_PHASEENERGYWEAPONBOOST"
+smallHudIcon "HUDICON_ABILITY_PHASEENERGYWEAPONBOOST"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_PHASEENERGYWEAPONBOOST_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_PHASEENERGYWEAPONBOOST_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 4 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_FRIGATEACCESS_UTILITY0PHASE"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 90.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1400.000000
+	metal 250.000000
+	crystal 400.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "CrazyResearchOverlay"
+dlcId 204880

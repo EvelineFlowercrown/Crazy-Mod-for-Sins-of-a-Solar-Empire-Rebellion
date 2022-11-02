@@ -1,0 +1,58 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyArbitraryTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffDerelictMicroPhaseJumpSelf"
+range
+	Level:0 40000.000000
+	Level:1 40000.000000
+	Level:2 40000.000000
+	Level:3 40000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Ability_MicroPhaseJump"
+	mediumEffectName "Ability_MicroPhaseJump"
+	largeEffectName "Ability_MicroPhaseJump"
+	soundID "EFFECT_MICROPHASEJUMP"
+needsToFaceTarget FALSE
+canCollideWithTarget FALSE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenMovingThresholdDistance"
+thresholdDistance 30000.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 30.000000
+	Level:1 30.000000
+	Level:2 30.000000
+	Level:3 30.000000
+cooldownTime
+	Level:0 5.000000
+	Level:1 5.000000
+	Level:2 5.000000
+	Level:3 5.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_DERELICTMICROPHASEJUMP_NAME"
+descStringID "IDS_ABILITY_DERELICTMICROPHASEJUMP_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_MICROPHASEJUMP"
+smallHudIcon "HUDICON_ABILITY_MICROPHASEJUMP"
+infoCardIcon ""

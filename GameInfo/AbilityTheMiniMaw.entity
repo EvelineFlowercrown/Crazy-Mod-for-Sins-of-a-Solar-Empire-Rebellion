@@ -1,0 +1,75 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffTheMiniMawSelf"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 2
+	object "Corvette"
+	object "Frigate"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotInvulnerable"
+	constraint "NotFlagship"
+range
+	Level:0 5000.000000
+	Level:1 7500.000000
+	Level:2 0.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+			abilityIndex 1
+	smallEffectName "CapitalAbility_ResourceDrainActivate"
+	mediumEffectName "CapitalAbility_ResourceDrainActivate"
+	largeEffectName "CapitalAbility_ResourceDrainActivate"
+	soundID "EFFECT_RESOURCEDRAIN_LOOP"
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 5.000000
+	Level:1 7.000000
+	Level:2 0.000000
+	Level:3 0.000000
+aiUseTime "OnlyWhenManyTargetsInRangeOfBank"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 15.000000
+	Level:1 15.000000
+	Level:2 8.000000
+	Level:3 8.000000
+onlyAutoCastWhenTargetsInBank "FRONT"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 150.000000
+	Level:1 100.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 180.000000
+	Level:1 120.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_THEMINIMAW_NAME"
+descStringID "IDS_ABILITY_THEMINIMAW_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_RESOURCEDRAIN"
+smallHudIcon "HUDICON_ABILITY_RESOURCEDRAIN"
+infoCardIcon ""

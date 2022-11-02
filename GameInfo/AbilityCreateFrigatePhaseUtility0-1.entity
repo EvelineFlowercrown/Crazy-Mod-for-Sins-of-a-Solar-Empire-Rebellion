@@ -1,0 +1,67 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffCreateFrigatePhaseUtility0-1"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyWhenOrbitingEnemyPlanet"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+creditCost
+	Level:0 4250.000000
+	Level:1 3200.000000
+	Level:2 3200.000000
+	Level:3 3200.000000
+metalCost
+	Level:0 900.000000
+	Level:1 500.000000
+	Level:2 500.000000
+	Level:3 500.000000
+crystalCost
+	Level:0 950.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
+requiredShipSlots
+	Level:0 60.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 90.000000
+	Level:1 90.000000
+	Level:2 90.000000
+	Level:3 90.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_SPAWNPHASEUTILITY_NAME"
+descStringID "IDS_ABILITY_SPAWNPHASEUTILITY_DESCRIPTION"
+hudIcon "HUDICON_FRIGATE_PHASEUTILITY0"
+smallHudIcon "HUDICON_FRIGATE_PHASEUTILITY0"
+infoCardIcon ""

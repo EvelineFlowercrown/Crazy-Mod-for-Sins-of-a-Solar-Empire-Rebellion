@@ -1,0 +1,257 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "CapitalShip"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault FALSE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 45.000000
+basePopulationKilled 1.750000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 4.000000
+bombEffectCount 2
+bombEffectAngleVariance 2.500000
+bombEffectsDef
+	weaponType "Beam"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PhaseCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound ""
+	hitEffectName "Weapon_PhaseCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 1
+		sound ""
+	hitShieldsEffectSounds
+		soundCount 1
+		sound ""
+	beamEffectSounds
+		soundCount 1
+		sound "WEAPON_PHASEPLANETBOMB_LOOP"
+	beamGlowTextureName "PhaseCapitalBombingBeam_Glow"
+	beamCoreTextureName "PhaseCapitalBombingBeam_Core"
+	beamWidth 100.000000
+	beamGlowColor ffffffff
+	beamCoreColor ffffffff
+	beamTilingRate 3.000000
+mainViewIcon "MAINVIEWICON_CAPITALSHIP_PHASEBATTLESHIP2"
+basePrice
+	credits 3000.000000
+	metal 400.000000
+	crystal 250.000000
+slotCount 100.000000
+BuildTime 75.000000
+MaxHullPoints
+	StartValue 2100.000000
+	ValueIncreasePerLevel 390.000000
+MaxShieldPoints
+	StartValue 1250.000000
+	ValueIncreasePerLevel 550.000000
+HullPointRestoreRate
+	StartValue 4.000000
+	ValueIncreasePerLevel 1.500000
+ShieldPointRestoreRate
+	StartValue 3.000000
+	ValueIncreasePerLevel 1.800000
+ArmorPointsFromExperience
+	StartValue 11.000000
+	ValueIncreasePerLevel 1.700000
+maxMitigation
+	StartValue 0.650000
+	ValueIncreasePerLevel 0.011110
+MaxAntiMatter
+	StartValue 550.000000
+	ValueIncreasePerLevel 75.000000
+AntiMatterRestoreRate
+	StartValue 2.500000
+	ValueIncreasePerLevel 0.133334
+CultureProtectRate
+	StartValue 0.400000
+	ValueIncreasePerLevel 0.070000
+NameStringID "IDS_CAPITALSHIP_PHASEBATTLESHIP2_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_PHASEBATTLESHIP2_DESCRIPTION"
+picture "CAPITALSHIPPICTURE_PHASEBATTLESHIP2"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+roleType "Invalid"
+statCountType "CapitalShipBattleship"
+numRandomDebrisLarge 4
+numRandomDebrisSmall 17
+numSpecificDebris 0
+armorType "CapitalShip"
+hudIcon "HUDICON_CAPITALSHIP_PHASEBATTLESHIP2"
+smallHudIcon "MAINVIEWICON_CAPITALSHIP_PHASEBATTLESHIP2"
+infoCardIcon "INFOCARDICON_CAPITALSHIP_PHASEBATTLESHIP2"
+minZoomDistanceMult 1.550000
+NumWeapons 2
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 34.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 2.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.250000
+	TravelSpeed 3000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 10
+		burstDelay 0.050000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalPulseGunHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalPulseGunHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PhaseCapitalPulseGunHeavy_Travel"
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 50.500000
+	DamagePerBank:RIGHT 50.500000
+	Range 5500.000000
+	PreBuffCooldownTime 4.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 1000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 4
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileMedium_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileMedium_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		missileTravelEffectName "Weapon_PhaseCapitalMissileMedium_Travel"
+		missileStartTurningDistance 100.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 6.000000
+m_weaponIndexForRange 1
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 2
+TargetCountPerBank:RIGHT 2
+canOnlyTargetStructures FALSE
+mass 10000.000000
+ShieldMeshName "CapitalShip_PhaseBattleship2_Shield"
+renderShield TRUE
+maxAccelerationLinear 100.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 1.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 525.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+useCustomHyperspaceEffects TRUE
+effects
+	chargeUpEffectName "Hyperspace_Vasari_Capital_Chargeup"
+	chargeUpEffectNameBetweenStars "Hyperspace_Vasari_Capital_Chargeup_Interstellar"
+	chargeUpEffectNameDestabilized "Hyperspace_Vasari_Capital_Chargeup_Unstable"
+	chargeUpEffectSoundID "HYPERSPACE_CHARGEUP"
+	travelEffectName "Hyperspace_Vasari_Capital_Travel"
+	travelEffectNameBetweenStars "Hyperspace_Vasari_Capital_Travel_Interstellar"
+	travelEffectNameDestabilized "Hyperspace_Vasari_Capital_Travel_Unstable"
+	travelEffectSoundID "HYPERSPACE_TRAVEL"
+	exitEffectName "Hyperspace_Vasari_Capital_Exit"
+	exitEffectSoundID "HYPERSPACE_EXIT"
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CAPITALSHIP_PHASEBATTLESHIP2_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_PHASEBATTLESHIP2_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_PHASEBATTLESHIP2_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "CAPITALSHIP_PHASEBATTLESHIP2_ONCREATION_0"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CAPITALSHIP_PHASEBATTLESHIP2_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_PHASEBATTLESHIP2_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_PHASEBATTLESHIP2_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CAPITALSHIP_PHASEBATTLESHIP2_ONSELECTED_0"
+SoundID "CAPITALSHIP_PHASEBATTLESHIP2_ONSELECTED_1"
+SoundID "CAPITALSHIP_PHASEBATTLESHIP2_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CAPITALSHIP_PHASEBATTLESHIP2_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "CapitalShip_PhaseBattleship2"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_PhaseBattleship"
+ExplosionName "Vasari_CapitalShip0"
+CommandPoints
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.030400
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.050600
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+formationRank 0
+minShadow 0.000000
+maxShadow 1.000000
+dlcId 204880

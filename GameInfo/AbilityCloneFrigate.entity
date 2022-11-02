@@ -1,0 +1,80 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffCloneFrigate"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 1
+	object "Frigate"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 8000.000000
+	Level:1 16000.000000
+	Level:2 16000.000000
+	Level:3 16000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Ability_CloneFrigateActivate"
+	mediumEffectName "Ability_CloneFrigateActivate"
+	largeEffectName "Ability_CloneFrigateActivate"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 2
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 5.000000
+	Level:1 7.000000
+	Level:2 0.000000
+	Level:3 0.000000
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+creditCost
+	Level:0 6250.000000
+	Level:1 6250.000000
+	Level:2 6250.000000
+	Level:3 6250.000000
+metalCost
+	Level:0 1500.000000
+	Level:1 1500.000000
+	Level:2 1500.000000
+	Level:3 1500.000000
+crystalCost
+	Level:0 1100.000000
+	Level:1 1100.000000
+	Level:2 1100.000000
+	Level:3 1100.000000
+requiredShipSlots
+	Level:0 50.000000
+	Level:1 100.000000
+	Level:2 100.000000
+	Level:3 100.000000
+cooldownTime
+	Level:0 90.000000
+	Level:1 45.000000
+	Level:2 45.000000
+	Level:3 45.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_CLONEFRIGATE_NAME"
+descStringID "IDS_ABILITY_CLONEFRIGATE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_CLONEFRIGATE"
+smallHudIcon "HUDICON_ABILITY_CLONEFRIGATE"
+infoCardIcon ""

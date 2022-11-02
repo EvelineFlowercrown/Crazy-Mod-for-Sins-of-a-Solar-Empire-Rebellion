@@ -1,0 +1,62 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffStarBlackHoleEventHorizon"
+targetFilter
+	numOwnerships 2
+	ownership "Enemy"
+	ownership "Friendly"
+	numObjects 6
+	object "Frigate"
+	object "CapitalShip"
+	object "StarBase"
+	object "Corvette"
+	object "Fighter"
+	object "Titan"
+	numSpaces 2
+	space "Normal"
+	space "Phase"
+	numConstraints 1
+	constraint "NotFlagship"
+range
+	Level:0 5000.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_STAR_BLACKHOLEEVENTHORIZON_NAME"
+descStringID "IDS_ABILITY_STAR_BLACKHOLEEVENTHORIZON_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_BLACK_HOLE"
+smallHudIcon "HUDICON_ABILITY_BLACK_HOLE"
+infoCardIcon ""

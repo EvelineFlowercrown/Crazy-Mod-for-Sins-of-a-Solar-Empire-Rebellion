@@ -1,0 +1,72 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffTeleportDisableCaster"
+targetFilter
+	numOwnerships 2
+	ownership "Friendly"
+	ownership "Enemy"
+	numObjects 6
+	object "Frigate"
+	object "Corvette"
+	object "CapitalShip"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotInvulnerable"
+range
+	Level:0 30000.000000
+	Level:1 45000.000000
+	Level:2 60000.000000
+	Level:3 75000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Above"
+	smallEffectName "Ability_TeleportDisableActivate"
+	mediumEffectName "Ability_TeleportDisableActivate"
+	largeEffectName "Ability_TeleportDisableActivate"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 80.000000
+	Level:2 60.000000
+	Level:3 40.000000
+cooldownTime
+	Level:0 30.000000
+	Level:1 20.000000
+	Level:2 10.000000
+	Level:3 5.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_TELEPORTDISABLE_NAME"
+descStringID "IDS_ABILITY_TELEPORTDISABLE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_TELEPORTDISABLE"
+smallHudIcon "HUDICON_ABILITY_TELEPORTDISABLE"
+infoCardIcon ""

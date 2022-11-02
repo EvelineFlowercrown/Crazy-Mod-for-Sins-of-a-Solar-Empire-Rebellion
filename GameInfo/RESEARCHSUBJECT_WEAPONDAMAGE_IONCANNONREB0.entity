@@ -1,0 +1,44 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_ABILITY_IONBLAST"
+smallHudIcon "HUDICON_ABILITY_IONBLAST"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_IONCANNONREB0_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_IONCANNONREB0_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 6 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_HIGH_ORDER_EXPLOSIVES"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 2.500000
+BaseCost
+	credits 1300.000000
+	metal 250.000000
+	crystal 500.000000
+PerLevelCostIncrease
+	credits 250.000000
+	metal 95.000000
+	crystal 125.000000
+Tier 6
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 4
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+	linkedWeaponClass "ION"
+artifactPicture ""
+uniqueOverlayBrush "CrazyResearchOverlay"
+dlcId 204880

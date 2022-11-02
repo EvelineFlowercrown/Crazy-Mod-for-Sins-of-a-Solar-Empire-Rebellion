@@ -1,0 +1,43 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_COMPARTMENTALIZATION"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_COMPARTMENTALIZATION"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_FORTRESS_COMPARTMENTALIZATION_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_FORTRESS_COMPARTMENTALIZATION_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 5 , 6 ]
+ResearchField "Defense"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_STARBASEWEAPONBANKTARGETSTECHLOYAL"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 52.500000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1300.000000
+	metal 250.000000
+	crystal 375.000000
+PerLevelCostIncrease
+	credits 130.000000
+	metal 55.000000
+	crystal 55.000000
+Tier 5
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 4
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "StarBaseUpgradeCostAdjustment"
+	baseValue 0.000000
+	perLevelValue -0.200000
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

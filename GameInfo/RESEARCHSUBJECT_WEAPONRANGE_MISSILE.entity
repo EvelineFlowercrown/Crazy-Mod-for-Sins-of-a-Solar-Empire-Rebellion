@@ -1,0 +1,44 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_WEAPONRANGE_MISSILE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_WEAPONRANGE_MISSILE"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_WEAPONRANGE_MISSILE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_WEAPONRANGE_MISSILE_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 6 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_WEAPONDAMAGE_MISSILETECH2"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 52.500000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
+PerLevelCostIncrease
+	credits 400.000000
+	metal 125.000000
+	crystal 125.000000
+Tier 6
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 6
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponRangeAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.040000
+	linkedWeaponClass "MISSILE"
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

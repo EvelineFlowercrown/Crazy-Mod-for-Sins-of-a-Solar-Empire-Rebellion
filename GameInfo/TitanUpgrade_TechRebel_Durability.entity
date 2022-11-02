@@ -1,0 +1,129 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "TitanUpgrade"
+stageCount 5
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHREBEL_DURABILITY_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHREBEL_DURABILITY_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "HUDIconTitanTechRebelDurabilityUpgrade0"
+	smallHudIcon "HUDIconTitanTechRebelDurabilityUpgrade0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHREBEL_DURABILITY_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHREBEL_DURABILITY_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 0
+	hudIcon "HUDIconTitanTechRebelDurabilityUpgrade0"
+	smallHudIcon "HUDIconTitanTechRebelDurabilityUpgrade0"
+	infoCardIcon ""
+	upgradePropertyCount 5
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 3000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 0.930000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 2600.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 1.350000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 3.300000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHREBEL_DURABILITY_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHREBEL_DURABILITY_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 2
+	hudIcon "HUDIconTitanTechRebelDurabilityUpgrade1"
+	smallHudIcon "HUDIconTitanTechRebelDurabilityUpgrade1"
+	infoCardIcon ""
+	upgradePropertyCount 5
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 5600.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 1.870000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 5200.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 2.700000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 6.600000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHREBEL_DURABILITY_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHREBEL_DURABILITY_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 4
+	hudIcon "HUDIconTitanTechRebelDurabilityUpgrade2"
+	smallHudIcon "HUDIconTitanTechRebelDurabilityUpgrade2"
+	infoCardIcon ""
+	upgradePropertyCount 5
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 9000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 2.800000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 7400.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 4.050000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 9.900000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHREBEL_DURABILITY_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHREBEL_DURABILITY_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 6
+	hudIcon "HUDIconTitanTechRebelDurabilityUpgrade3"
+	smallHudIcon "HUDIconTitanTechRebelDurabilityUpgrade3"
+	infoCardIcon ""
+	upgradePropertyCount 5
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 11000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 3.800000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 10000.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 5.400000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 13.600000
+	upgradeBoolPropertyCount 0

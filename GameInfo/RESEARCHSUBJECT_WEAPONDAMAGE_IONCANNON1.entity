@@ -1,0 +1,44 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_ABILITY_GAUSSBLAST"
+smallHudIcon "HUDICON_ABILITY_GAUSSBLAST"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_IONCANNON1_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_IONCANNON1_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 6 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_WEAPONDAMAGE_IONCANNON0"
+		Level 4
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 3.500000
+BaseCost
+	credits 1800.000000
+	metal 450.000000
+	crystal 900.000000
+PerLevelCostIncrease
+	credits 350.000000
+	metal 135.000000
+	crystal 195.000000
+Tier 6
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 4
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.075000
+	linkedWeaponClass "ION"
+artifactPicture ""
+uniqueOverlayBrush "CrazyResearchOverlay"
+dlcId 204880

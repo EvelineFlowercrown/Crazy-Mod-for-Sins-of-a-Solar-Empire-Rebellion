@@ -1,0 +1,43 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_TWINFORTRESSES"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_TWINFORTRESSES"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_TWIN_FORTRESSES_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_TWIN_FORTRESSES_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 7 , 6 ]
+ResearchField "Defense"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_FORTRESS_COMPARTMENTALIZATION"
+		Level 4
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 100.000000
+PerLevelUpgradeTime 15.000000
+BaseCost
+	credits 2800.000000
+	metal 850.000000
+	crystal 550.000000
+PerLevelCostIncrease
+	credits 1200.000000
+	metal 625.000000
+	crystal 425.000000
+Tier 7
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "StarBasesPerGravityWellAdjustment"
+	baseValue 0.000000
+	perLevelValue 1.000000
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

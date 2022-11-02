@@ -1,0 +1,39 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_ABILITY_SPAWNSQUAD"
+smallHudIcon "HUDICON_ABILITY_SPAWNSQUAD"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_SPAWNSQUAD_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_SPAWNSQUAD_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 2 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_FRIGATEACCESS_CARRIERPHASE"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 90.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 4500.000000
+	metal 3250.000000
+	crystal 2400.000000
+PerLevelCostIncrease
+	credits 2300.000000
+	metal 1125.000000
+	crystal 925.000000
+Tier 2
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 3
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "CrazyResearchOverlay"
+dlcId 204880

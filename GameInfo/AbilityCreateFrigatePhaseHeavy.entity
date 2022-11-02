@@ -1,0 +1,67 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffCreateFrigatePhaseHeavy"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+creditCost
+	Level:0 5625.000000
+	Level:1 7875.000000
+	Level:2 13500.000000
+	Level:3 16875.000000
+metalCost
+	Level:0 2750.000000
+	Level:1 3850.000000
+	Level:2 6600.000000
+	Level:3 8250.000000
+crystalCost
+	Level:0 2050.000000
+	Level:1 2870.000000
+	Level:2 4920.000000
+	Level:3 6150.000000
+requiredShipSlots
+	Level:0 75.000000
+	Level:1 105.000000
+	Level:2 180.000000
+	Level:3 225.000000
+cooldownTime
+	Level:0 45.000000
+	Level:1 50.000000
+	Level:2 65.000000
+	Level:3 90.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_SPAWNPHASEHEAVY_NAME"
+descStringID "IDS_ABILITY_SPAWNPHASEHEAVY_DESCRIPTION"
+hudIcon "HUDICON_FRIGATE_PHASEHEAVY"
+smallHudIcon "HUDICON_FRIGATE_PHASEHEAVY"
+infoCardIcon ""

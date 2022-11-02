@@ -1,0 +1,59 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "RuinPlanet"
+instantActionTriggerType "AlwaysPerform"
+targetFilter
+	numOwnerships 1
+	ownership "NoOwner"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "IsRuinable"
+range
+	Level:0 15000.000000
+	Level:1 15000.000000
+	Level:2 5000.000000
+	Level:3 5000.000000
+afterRuinBuffType ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 5.000000
+	Level:1 7.000000
+	Level:2 0.000000
+	Level:3 0.000000
+aiUseTime "NoEnemyShipsInGravityWell"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 120.000000
+	Level:1 70.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 200.000000
+	Level:1 100.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_RUINPLANET_NAME"
+descStringID "IDS_ABILITY_RUINPLANET_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_STRIPPEDTOTHECORE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_STRIPPEDTOTHECORE"
+infoCardIcon ""

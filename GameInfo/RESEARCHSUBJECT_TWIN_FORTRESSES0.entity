@@ -1,0 +1,40 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_TWINFORTRESSES"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_TWINFORTRESSES"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_TWIN_FORTRESSES_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_TWIN_FORTRESSES_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 2 , 6 ]
+ResearchField "Defense"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 15.000000
+BaseCost
+	credits 1200.000000
+	metal 450.000000
+	crystal 350.000000
+PerLevelCostIncrease
+	credits 1200.000000
+	metal 625.000000
+	crystal 425.000000
+Tier 2
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "StarBasesPerGravityWellAdjustment"
+	baseValue 0.000000
+	perLevelValue 1.000000
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

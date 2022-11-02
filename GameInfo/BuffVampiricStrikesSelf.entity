@@ -1,0 +1,48 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
+	instantActionTriggerType "OnWeaponFired"
+	numWeaponClasses 3
+	weaponClassForWeaponPassive "WAVE"
+	weaponClassForWeaponPassive "PULSEWAVE"
+	weaponClassForWeaponPassive "FLASHBEAM"
+	passiveWeaponEffectChance
+		Level:0 0.020000
+		Level:1 0.040000
+		Level:2 0.060000
+		Level:3 0.080000
+	buffType "BuffVampiricStrikesTarget"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 5
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "WeaponCooldown"
+	value
+		Level:0 -0.250000
+		Level:1 -0.500000
+		Level:2 -0.750000
+		Level:3 -1.000000
+numEntityBoolModifiers 0
+numFinishConditions 0

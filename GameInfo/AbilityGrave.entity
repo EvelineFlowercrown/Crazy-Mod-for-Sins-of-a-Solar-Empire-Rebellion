@@ -1,0 +1,55 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffGrave"
+targetFilter
+	numOwnerships 0
+	numObjects 7
+	object "CapitalShip"
+	object "Frigate"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	object "PlanetModule"
+	object "SpaceMine"
+	numSpaces 2
+	space "Normal"
+	space "Phase"
+	numConstraints 0
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0		
+nameStringID "IDS_ABILITY_GRAVE_NAME"
+descStringID "IDS_ABILITY_GRAVE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_GRAVE"
+smallHudIcon "HUDICON_ABILITY_GRAVE"
+infoCardIcon ""

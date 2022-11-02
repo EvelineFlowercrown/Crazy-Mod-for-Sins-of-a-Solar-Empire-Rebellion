@@ -1,0 +1,80 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
+	instantActionTriggerType "OnWeaponFired"
+	numWeaponClasses 1
+	weaponClassForWeaponPassive "PULSEGUN"
+	passiveWeaponEffectChance
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
+	buffType "BuffPhaseLoyalBonusModuleDamageTarget"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 2
+		object "PlanetModule"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 5.000000
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "BuffPhaseLoyalBonusModuleDamageAOE"
+	targetFilter
+		numOwnerships 1
+		ownership "Friendly"
+		numObjects 3
+		object "CapitalShip"
+		object "Frigate"
+		object "Titan"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 17500.000000
+		Level:1 17500.000000
+		Level:2 17500.000000
+		Level:3 17500.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "PlanetBombingCooldown"
+	value
+		Level:0 -2.000000
+		Level:1 -3.000000
+		Level:2 -4.000000
+		Level:3 -5.000000
+numEntityBoolModifiers 0
+numFinishConditions 0

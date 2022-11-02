@@ -1,0 +1,44 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_PHASECANNON1"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_PHASECANNON1"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_PHASECANNON1_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_PHASECANNON1_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 3 , 1 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_WEAPONIGNORESHIELDS_PHASECANNON0"
+		Level 4	
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 6.000000
+BaseCost
+	credits 1100.000000
+	metal 390.000000
+	crystal 375.000000
+PerLevelCostIncrease
+	credits 1050.000000
+	metal 110.000000
+	crystal 130.000000
+Tier 3
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 4
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+	linkedWeaponClass "PHASECANNON"
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

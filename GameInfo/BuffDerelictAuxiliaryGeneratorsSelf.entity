@@ -1,0 +1,58 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 2
+overTimeAction
+	buffOverTimeActionType "RestoreShields"
+	shieldRestoreRate
+		Level:0 100.000000
+		Level:1 150.000000
+		Level:2 200.000000
+		Level:3 250.000000
+overTimeAction
+	buffOverTimeActionType "DrainAntiMatter"
+	drainAntiMatterRate
+		Level:0 15.000000
+		Level:1 15.000000
+		Level:2 15.000000
+		Level:3 15.000000
+numEntityModifiers 3
+entityModifier
+	buffEntityModifierType "ShieldMitigation"
+	value
+		Level:0 0.500000
+		Level:1 0.500000
+		Level:2 0.500000
+		Level:3 0.500000
+entityModifier
+	buffEntityModifierType "MaxShieldPoints"
+	value
+		Level:0 15000.000000
+		Level:1 20000.000000
+		Level:2 25000.000000
+		Level:3 30000.000000
+entityModifier
+	buffEntityModifierType "GravityWellRangeForHyperspace"
+	value
+		Level:0 -0.900000
+		Level:1 -0.900000
+		Level:2 -0.900000
+		Level:3 -0.900000
+numEntityBoolModifiers 1
+entityBoolModifier "HasShieldMeshEffect"
+numFinishConditions 3
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "AntiMatterDepleted"
+finishCondition
+	finishConditionType "EnterHyperspace"

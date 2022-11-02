@@ -1,0 +1,44 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_HARDENEDDEFENSES"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_HARDENEDDEFENSES"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_HARDENED_DEFENSES_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_HARDENED_DEFENSES_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 3 , 5 ]
+ResearchField "Defense"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1100.000000
+	metal 200.000000
+	crystal 300.000000
+PerLevelCostIncrease
+	credits 300.000000
+	metal 85.000000
+	crystal 105.000000
+Tier 3
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "TacticalStructureArmorAdjustment"
+	baseValue 0.000000
+	perLevelValue 5.000000
+researchModifier
+	modifierType "TacticalStructureHullPointsMaxAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.250000
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

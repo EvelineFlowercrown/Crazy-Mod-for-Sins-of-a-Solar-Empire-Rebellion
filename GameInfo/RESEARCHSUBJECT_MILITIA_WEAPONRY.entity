@@ -1,0 +1,41 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_MILITAWEAPONRY"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_MILITAWEAPONRY"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_MILITIA_WEAPONRY_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_MILITIA_WEAPONRY_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 2 , 9 ]
+ResearchField "Defense"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 800.000000
+	metal 100.000000
+	crystal 125.000000
+PerLevelCostIncrease
+	credits 200.000000
+	metal 55.000000
+	crystal 55.000000
+Tier 2
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 4
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponDamageAdjustmentWhenInFriendlyGravityWell"
+	baseValue 0.000000
+	perLevelValue 0.200000
+	linkedWeaponClass "Invalid"
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

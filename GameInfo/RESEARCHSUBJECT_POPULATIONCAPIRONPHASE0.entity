@@ -1,0 +1,58 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_POPULATIONCAP_IRON_0"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_POPULATIONCAP_IRON_0"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE0_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE0_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 4 , 4 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_PLANETACCESS_IRONPHASE"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 37.500000
+PerLevelUpgradeTime 2.500000
+BaseCost
+	credits 1200.000000
+	metal 200.000000
+	crystal 325.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 4
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 4
+researchModifier
+	modifierType "PlanetPopulationCapAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.075000
+	linkedPlanetType "Iron"
+researchModifier
+	modifierType "PlanetPopulationCapAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+	linkedPlanetType "Asteroid"
+researchModifier
+	modifierType "PlanetPopulationCapAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+	linkedPlanetType "Barren"
+researchModifier
+	modifierType "PopulationGrowthRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.200000
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 228601

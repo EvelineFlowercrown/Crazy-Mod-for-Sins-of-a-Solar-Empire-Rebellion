@@ -1,0 +1,163 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault FALSE
+canBomb FALSE
+typeCount 1
+frigateRoleType "AntiFighter"
+statCountType "FrigateAntiFighter"
+mainViewIcon "MAINVIEWICON_FRIGATE_PHASEANTIFIGHTER"
+picture "PICTURE_FRIGATE_PHASEANTIFIGHTER"
+NameStringID "IDS_FRIGATE_PHASEANTIFIGHTER_NAME"
+DescriptionStringID "IDS_FRIGATE_PHASEANTIFIGHTER_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
+basePrice
+	credits 1000.000000
+	metal 250.000000
+	crystal 150.000000
+slotCount 32.000000
+BuildTime 15.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 50.000000
+MaxHullPoints 743.000000
+MaxShieldPoints 695.000000
+HullPointRestoreRate 4.000000
+ShieldPointRestoreRate 2.000000
+BaseArmorPoints 4.500000
+maxMitigation 0.600000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_FRIGATEACCESS_ANTIFIGHTERPHASE"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 4
+numSpecificDebris 0
+armorType "Heavy"
+hudIcon "HUDICON_FRIGATE_PHASEANTIFIGHTER"
+smallHudIcon "HUDICONSMALL_FRIGATE_PHASEANTIFIGHTER"
+infoCardIcon "INFOCARDICON_FRIGATE_PHASEANTIFIGHTER"
+minZoomDistanceMult 7.500000
+NumWeapons 1
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIVERYLIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "POINTDEFENSELASER"
+	DamagePerBank:FRONT 60.000000
+	DamagePerBank:BACK 60.000000
+	DamagePerBank:LEFT 60.000000
+	DamagePerBank:RIGHT 60.000000
+	Range 6500.000000
+	PreBuffCooldownTime 6.500000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.250000
+	TravelSpeed 0.000000
+	Duration 0.160000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 3
+		burstDelay 0.100000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalFlashBeamLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_PhaseCapitalFlashBeamLight_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALFLASHBEAMHEAVY_TRAVEL"
+			sound "WEAPON_PHASECAPITALFLASHBEAMHEAVY_TRAVEL_ALT1"
+		beamGlowTextureName "PhaseCapitalBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBeam_Core_Light"
+		beamWidth 20.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 5
+TargetCountPerBank:BACK 5
+TargetCountPerBank:LEFT 5
+TargetCountPerBank:RIGHT 5
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 2000.000000
+ShieldMeshName "Shield_FrigatePhaseAntiFighter"
+renderShield TRUE
+maxAccelerationLinear 150.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 3.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 700.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+useCustomHyperspaceEffects FALSE
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "FRIGATE_PHASEAA_ONATTACKORDERISSUED_0"
+SoundID "FRIGATE_PHASEAA_ONATTACKORDERISSUED_1"
+SoundID "FRIGATE_PHASEAA_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "FRIGATE_PHASEAA_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "FRIGATE_PHASEAA_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_PHASEAA_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_PHASEAA_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "FRIGATE_PHASEAA_ONSELECTED_0"
+SoundID "FRIGATE_PHASEAA_ONSELECTED_1"
+SoundID "FRIGATE_PHASEAA_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "FRIGATE_PHASEAA_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Frigate_PhaseAntiFighter"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigatePhaseAntiFighter"
+ExplosionName "Vasari_Frigate1"
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+ability:0 "AbilityWeaponJamLight"
+ability:1 "AbilityChargedMissilesLight"
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 100.000000
+AntiMatterRestoreRate 0.800000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 1
+minShadow 0.000000
+maxShadow 1.500000
+allegianceDecreasePerRoundtrip 0.000000
+dlcId 204880

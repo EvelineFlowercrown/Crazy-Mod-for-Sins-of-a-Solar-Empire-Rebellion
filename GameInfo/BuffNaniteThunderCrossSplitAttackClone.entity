@@ -1,0 +1,99 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusivePerPlayer"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "OnOwnerDeath"
+	buffType "BuffVolatileNanitesDeathDamage"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 2500.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Ability_VolatileNanitesImpact"
+		mediumEffectName "Ability_VolatileNanitesImpact"
+		largeEffectName "Ability_VolatileNanitesImpact"
+		soundID ""
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Buff_VolatileNanitesSmall"
+		mediumEffectName "Buff_VolatileNanitesLarge"
+		largeEffectName "Buff_VolatileNanitesLarge"
+		soundID "EFFECT_VOLATILENANITES_LOOP"
+instantAction
+	buffInstantActionType "MakeDead"
+	instantActionTriggerType "OnBuffFinish"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 4
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 0.500000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "ChanceToIgnoreShieldsAsDamageDealer"
+	value
+		Level:0 1.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "WeaponCooldown"
+	value
+		Level:0 -1.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "WeaponRange"
+	value
+		Level:0 1.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+numEntityBoolModifiers 2
+entityBoolModifier "CannotBeDamaged"
+entityBoolModifier "DisableAbilitiesUltimate"
+numFinishConditions 2
+finishCondition
+	finishConditionType "FirstSpawnerNoLongerHasBuff"
+	buffTypeToQuery "BuffNaniteThunderCrossSplitAttackCaster"
+finishCondition
+	finishConditionType "OwnerChanged"

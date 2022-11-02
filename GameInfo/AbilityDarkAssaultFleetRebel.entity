@@ -1,0 +1,61 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffDarkAssaultFleetRebelSelf"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_FLEETBEACON"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+creditCost
+	Level:0 30000.000000
+	Level:1 30000.000000
+	Level:2 30000.000000
+	Level:3 30000.000000
+metalCost
+	Level:0 18000.000000
+	Level:1 18000.000000
+	Level:2 18000.000000
+	Level:3 18000.000000
+crystalCost
+	Level:0 18000.000000
+	Level:1 18000.000000
+	Level:2 18000.000000
+	Level:3 18000.000000
+cooldownTime
+	Level:0 600.000000
+	Level:1 600.000000
+	Level:2 600.000000
+	Level:3 600.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_FLEETBEACON"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_DARKASSAULTFLEETREBEL_NAME"
+descStringID "IDS_ABILITY_DARKASSAULTFLEETREBEL_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_FLEETBEACON"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_FLEETBEACON"
+infoCardIcon ""

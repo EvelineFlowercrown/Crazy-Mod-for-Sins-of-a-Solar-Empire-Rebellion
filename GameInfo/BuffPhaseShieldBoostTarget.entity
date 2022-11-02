@@ -1,0 +1,48 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 2
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Aura"
+		smallEffectName "CapitalBuff_ShieldRegenerateSmall"
+		mediumEffectName "CapitalBuff_ShieldRegenerateLarge"
+		largeEffectName "CapitalBuff_ShieldRegenerateLarge"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "RestoreShields"
+	shieldRestoreRate
+		Level:0 20.000000
+		Level:1 40.000000
+		Level:2 60.000000
+		Level:3 80.000000
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "ShieldMitigation"
+	value
+		Level:0 0.025000
+		Level:1 0.050000
+		Level:2 0.075000
+		Level:3 0.100000
+numEntityBoolModifiers 0
+numFinishConditions 3
+finishCondition
+	finishConditionType "OutOfRange"
+finishCondition
+	finishConditionType "FirstSpawnerNoLongerHasBuff"
+	buffTypeToQuery "BuffPhaseShieldBoostCaster"
+finishCondition
+	finishConditionType "OwnerChanged"

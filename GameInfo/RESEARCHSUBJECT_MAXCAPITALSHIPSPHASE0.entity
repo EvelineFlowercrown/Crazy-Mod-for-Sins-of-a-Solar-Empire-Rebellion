@@ -1,0 +1,52 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE0"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE0"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE0_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE0_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 0 , 0 ]
+ResearchField "Fleet"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 420.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 400.000000
+	metal 0.000000
+	crystal 25.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 0
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 4
+researchModifier
+	modifierType "ExperienceAwardedAdjustment"
+	baseValue -0.500000
+	perLevelValue 0.050000
+researchModifier
+	modifierType "ExperienceAwardedAdjustmentWhenInFriendlyGravityWell"
+	baseValue -0.500000
+	perLevelValue 0.050000
+researchModifier
+	modifierType "CapitalShipMaxSlots"
+	baseValue 2.000000
+	perLevelValue 1.000000
+researchModifier
+	modifierType "CapitalShipMaxSlotLevel"
+	baseValue 0.000000
+	perLevelValue 1.000000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

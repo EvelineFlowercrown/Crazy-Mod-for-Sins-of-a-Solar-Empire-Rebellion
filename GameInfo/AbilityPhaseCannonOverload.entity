@@ -1,0 +1,51 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffPhaseCannonOverloadSelf"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Ability_LastStandActivate"
+	mediumEffectName "Ability_LastStandActivate"
+	largeEffectName "Ability_LastStandActivate"
+	soundID "EFFECT_LASTSTAND"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 3
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_PHASECANNONOVERLOAD"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 90.000000
+	Level:1 90.000000
+	Level:2 90.000000
+	Level:3 90.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_PHASECANNONOVERLOAD"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_PHASECANNONOVERLOAD_NAME"
+descStringID "IDS_ABILITY_PHASECANNONOVERLOAD_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_PHASEREACTOROVERLOAD"
+smallHudIcon "HUDICON_ABILITY_PHASEREACTOROVERLOAD"
+infoCardIcon ""

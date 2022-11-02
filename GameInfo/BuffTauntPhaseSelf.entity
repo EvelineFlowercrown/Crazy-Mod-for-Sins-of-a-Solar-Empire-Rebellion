@@ -1,0 +1,93 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Ability_TauntActivate"
+		mediumEffectName "Ability_TauntActivate"
+		largeEffectName "Ability_TauntActivate"
+		soundID "EFFECT_TAUNT_ACTIVATE"
+numPeriodicActions 1
+periodicAction
+	actionCountType "Finite"
+	actionCount
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
+	actionIntervalTime
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "BuffTauntPhase"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 3
+		object "Frigate"
+		object "Corvette"
+		object "CapitalShip"
+		numSpaces 1
+		space "Normal"
+		numConstraints 3
+		constraint "HasWeapons"
+		constraint "NotFlagship"
+		constraint "NotInvulnerable"
+	range
+		Level:0 5000.000000
+		Level:1 7500.000000
+		Level:2 10000.000000
+		Level:3 12500.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "DamageAsDamageTarget"
+	value
+		Level:0 -0.600000
+		Level:1 -0.700000
+		Level:2 -0.800000
+		Level:3 -0.900000
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 -0.600000
+		Level:1 -0.400000
+		Level:2 -0.200000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 25.000000
+		Level:2 30.000000
+		Level:3 35.000000

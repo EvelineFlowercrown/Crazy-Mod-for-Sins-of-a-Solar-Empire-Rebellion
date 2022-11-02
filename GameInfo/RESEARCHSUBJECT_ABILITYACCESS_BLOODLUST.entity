@@ -1,0 +1,39 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_ABILITY_BLOODLUST"
+smallHudIcon "HUDICON_ABILITY_BLOODLUST"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_BLOODLUST_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_BLOODLUST_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 5 , 3 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_FRIGATEACCESS_HEAVYPHASEREBEL"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 55.000000
+PerLevelUpgradeTime 7.000000
+BaseCost
+	credits 2100.000000
+	metal 1300.000000
+	crystal 475.000000
+PerLevelCostIncrease
+	credits 590.000000
+	metal 525.000000
+	crystal 225.000000
+Tier 5
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 4
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "CrazyResearchOverlay"
+dlcId 204880

@@ -1,0 +1,44 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_SHIPBOARDLABS"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_SHIPBOARDLABS"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_SHIPBOARD_LABS_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_SHIPBOARD_LABS_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 0 , 0 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 100.000000
+PerLevelUpgradeTime 0.000000
+BaseCost
+	credits 2300.000000
+	metal 400.000000
+	crystal 350.000000
+PerLevelCostIncrease
+	credits 1700.000000
+	metal 450.000000
+	crystal 375.000000
+Tier 0
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "MilitaryLabsPerCapitalShip"
+	baseValue 0.000000
+	perLevelValue 0.500000
+researchModifier
+	modifierType "CivilianLabsPerCapitalShip"
+	baseValue 0.000000
+	perLevelValue 0.500000
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

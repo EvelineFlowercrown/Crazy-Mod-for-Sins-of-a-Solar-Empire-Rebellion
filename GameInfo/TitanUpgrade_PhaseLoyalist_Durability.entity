@@ -1,0 +1,129 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "TitanUpgrade"
+stageCount 5
+stage
+	nameStringID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_NAME"
+	descStringID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "HUDIconTitanPhaseLoyalistDurabilityUpgrade0"
+	smallHudIcon "HUDIconTitanPhaseLoyalistDurabilityUpgrade0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_NAME"
+	descStringID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 0
+	hudIcon "HUDIconTitanPhaseLoyalistDurabilityUpgrade0"
+	smallHudIcon "HUDIconTitanPhaseLoyalistDurabilityUpgrade0"
+	infoCardIcon ""
+	upgradePropertyCount 5
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 4600.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 5.310000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 3000.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 2.790000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 2.850000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_NAME"
+	descStringID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 2
+	hudIcon "HUDIconTitanPhaseLoyalistDurabilityUpgrade1"
+	smallHudIcon "HUDIconTitanPhaseLoyalistDurabilityUpgrade1"
+	infoCardIcon ""
+	upgradePropertyCount 5
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 8200.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 9.000000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 7600.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 5.580000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 5.700000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_NAME"
+	descStringID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 4
+	hudIcon "HUDIconTitanPhaseLoyalistDurabilityUpgrade2"
+	smallHudIcon "HUDIconTitanPhaseLoyalistDurabilityUpgrade2"
+	infoCardIcon ""
+	upgradePropertyCount 5
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 12400.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 15.930000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 11600.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 8.370000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 8.550000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_NAME"
+	descStringID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 6
+	hudIcon "HUDIconTitanPhaseLoyalistDurabilityUpgrade3"
+	smallHudIcon "HUDIconTitanPhaseLoyalistDurabilityUpgrade3"
+	infoCardIcon ""
+	upgradePropertyCount 5
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 15000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 24.240000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 14000.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 11.160000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 13.000000
+	upgradeBoolPropertyCount 0

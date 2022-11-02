@@ -1,0 +1,72 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "CreateFrigate"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerDoesNotHaveBuff"
+	conditionBuffType "BuffVorastraPhaseGateModuleTarget"
+	conditionBuffShortName "IDS_BUFFSHORTNAME_BUFFVORASTRAPHASEGATE"
+	frigateType "FrigateSpawnerPhaseGate"
+	numFrigates
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
+	matchOwnerDamageState FALSE
+	impulse 35000.000000
+	expiryTime
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
+	spawnFrigateSoundID "EFFECT_DEPLOYCOMBATTURRET"
+	postSpawnBuff "BuffLongRangeNetworkingPost"
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasBuff"
+	conditionBuffType "BuffVorastraPhaseGateModuleTarget"
+	conditionBuffShortName "IDS_BUFFSHORTNAME_BUFFVORASTRAPHASEGATE"
+	buffType "BuffEstablishNetworkInv"
+	targetFilter
+		numOwnerships 1
+		ownership "Player"
+		numObjects 1
+		object "PlanetModule"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "IsBoarded"
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 10.000000
